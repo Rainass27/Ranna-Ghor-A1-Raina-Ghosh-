@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ranna Ghor</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Ranna Ghor</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="service.html">Our Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1 class="hero-title">Welcome to Ranna Ghor</h1>
+      <p class="lead">Delicious Bengali Cuisine at Your Fingertips</p>
+      
+    </div>
+  </section>
+
+  <section id="carousel-section" class="text-center py-5">
+    <div class="container">
+      <h2 class="section-title">Our Signature Dishes</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://www.scrumptiously.com/wp-content/uploads/2024/10/MuttonKosha.webp" alt="Mutton Kosha"></div>
+          <div class="swiper-slide"><img src="https://www.holidify.com/images/cmsuploads/compressed/Ilish_macher_paturi_20170829115529.jpg" alt="Ilish Macher Paturi"></div>
+          <div class="swiper-slide"><img src="https://www.holidify.com/images/cmsuploads/compressed/Mutton_Biryani_with_egg_and_salad_20170829120133.JPG" alt="Mutton Biryani"></div>
+          <div class="swiper-slide"><img src="https://images.squarespace-cdn.com/content/v1/5f2fa039103c7a08856032c1/1604272693005-ZQ92CEHMNV5FAVCOX60U/Adjustments.jpeg" alt="Bengali Thali"></div>
+          <div class="swiper-slide"><img src="https://static.toiimg.com/thumb/100360917/100360917.jpg?height=746&width=420&resizemode=76&imgsize=91144" alt="Hilsa Macher Jhol"></div>
+          <div class="swiper-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%B6_%E0%A6%AE%E0%A6%BE%E0%A6%9B_%E0%A6%AD%E0%A6%BE%E0%A6%9C%E0%A6%BE_%E0%A6%93_%E0%A6%AD%E0%A6%BE%E0%A6%A4.jpg" alt="Mach Bhaja"></div>
+          <div class="swiper-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGHoJBV0LUNitfy_7S-ITHTMostWPugn-czg&s" alt="Mishti Doi"></div>
+        </div>
+        <div class="swiper-pagination"></div><br><br><br>
+        <a href="menu.html" class="btn btn-theme btn-lg mt-3">Explore Our Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ranna Ghor | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      loop: true,
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+    </script>
+</body>
+</html>
