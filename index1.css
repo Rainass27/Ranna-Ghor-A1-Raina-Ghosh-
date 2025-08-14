@@ -1,8 +1,4 @@
-/* ===========================
-   Ranna Ghor Theme Styles
-   =========================== */
-
-/* Fonts */
+/* importing the Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
 
 /* Base Styles */
@@ -82,7 +78,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Cards (for services, reviews, and forms) */
+/* Cards (for services, reviews and forms) */
 .service-card, .review-card, .form-card {
     background: #fffaf3;
     border-radius: 12px;
@@ -203,32 +199,33 @@ body {
 
 /* Footer */
 footer {
-    background-color: #4a2c2a; /* Dark brown footer */
+    background-color: #4a2c2a; 
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
 }
-/* Styling for Menu Items */
+/* Styling for Menu */
 .menu-item {
     display: flex;
-    align-items: baseline; /* Aligns text vertically */
-    margin-bottom: 12px; /* Adds space between menu items */
+    align-items: baseline; 
+    margin-bottom: 12px;
 }
 
 .dish-name {
-    flex-shrink: 0; /* Prevents the dish name from shrinking */
+    flex-shrink: 0;
 }
 
 .dish-price {
-    flex-shrink: 0; /* Prevents the price from shrinking */
+    flex-shrink: 0; 
     font-weight: bold;
-    color: #7B241C; /* A deep red to match the theme */
+    color: #7B241C; 
 }
 
 .leader {
-    flex-grow: 1; /* Allows the line to fill all available space */
-    border-bottom: 2px dotted #d4a373; /* Dotted line style */
-    margin: 0 0.5em; /* Adds a little space on either side of the line */
-    transform: translateY(-4px); /* Adjusts line position to be centered */
+    flex-grow: 1; 
+    border-bottom: 2px dotted #d4a373;
+    margin: 0 0.5em; 
+    transform: translateY(-4px); 
+
 }
